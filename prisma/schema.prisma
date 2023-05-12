@@ -3,7 +3,7 @@
 
 datasource db {
   provider = "mongodb"
-  url      = env("DATABASE_URL")
+  url      = "mongodb+srv://iotUser:ussZSwO1nquXo3Mz@iotapidb.wurpm1z.mongodb.net/iotApiDB"
 }
 
 generator client {
